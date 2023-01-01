@@ -9,7 +9,7 @@ public class KdvHesaplama {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Ürün Tutarını girin: ");
+        System.out.println("Ürün Tutarını girin:  ");
         tutar = scanner.nextDouble();
 
         if(tutar>=0 && tutar<=1000) {
