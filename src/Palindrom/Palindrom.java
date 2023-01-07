@@ -1,6 +1,5 @@
 package Palindrom;
 
-import javax.sound.midi.SysexMessage;
 import java.util.Scanner;
 
 public class Palindrom {
