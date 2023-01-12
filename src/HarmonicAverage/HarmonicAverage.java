@@ -1,6 +1,6 @@
-package ArrayAverage;
+package HarmonicAverage;
 
-public class ArrayAverage {
+public class HarmonicAverage {
     public static void main(String[] args) {
         double[] array = {1,2,3,4,5};
         double sum = 0;
