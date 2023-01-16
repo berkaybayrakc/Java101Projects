@@ -21,10 +21,9 @@ public class Transpose {
                 array[i][j] = scanner.nextInt();
             }
         }
-        for (int r=0;r<k;r++){
-            for (int p=0;p<n;p++){
+        for (int r=0;r<n;r++){
+            for (int p=0;p<k;p++){
                 System.out.print(array[r][p] +" ");
-                transposeArray[p][r] = array[r][p];
             }
             System.out.println("");
         }
@@ -32,6 +31,7 @@ public class Transpose {
 
         for (int r=0;r<k;r++){
             for (int p=0;p<n;p++){
+                transposeArray[r][p] = array [p][r];
                 System.out.print(transposeArray[r][p] +" ");
 
             }
